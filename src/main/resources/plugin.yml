@@ -1,0 +1,9 @@
+name: ItemTrack
+version: '1.0-SNAPSHOT'
+main: cn.clexus.itemTrack.ItemTrack
+api-version: '1.21.3'
+commands:
+  itemtrack:
+    description: "Track item get history"
+    permission: itemtrack.use
+    usage: "/itemtrack [UUID]"
